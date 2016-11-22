@@ -59,6 +59,7 @@ div.bhoechie-tab-menu div.list-group>a{
   font-size: 12px;
   font-family: Arial;
   font-weight: bold;
+  padding: 5px;
 }
 div.bhoechie-tab-menu div.list-group>a .glyphicon,
 div.bhoechie-tab-menu div.list-group>a .fa {
@@ -159,14 +160,14 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     margin-left: 31%;
     width: 75%;
     background: #657195;
-    margin-top: -5.4%;
+    margin-top: -5.2%;
 }
 .nav-tabs .nav-item {
     float: left;
     margin-bottom: -5px;
     font-family: Arial;
    font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
     padding: 1% 6%;
 }
 .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
@@ -244,6 +245,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     .ui-tabs.ui-tabs-vertical {
     padding: 0;
     width: 100%;
+    margin-left: 28px;
 }
 .ui-tabs.ui-tabs-vertical .ui-widget-header {
     border: none;
@@ -252,17 +254,17 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
      margin-top: 15px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.7);
     float: left;
-    width: 100%;
+    width: 116%;
     background: #657195;
-    border-right: 1px solid gray;
+    border-radius: 7px;
     padding: 0;
      padding-right: 0;
   padding-left: 0;
   padding-bottom: 0;
-    margin-left: 15%;
 }
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
     clear: left;
+    padding: 0;
     width: 100%;
     border: 1px solid #e5d506;
     overflow: hidden;
@@ -273,18 +275,23 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     color: white;
     display: block;
     width: 100%;
-    padding: 0.6em 1em;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 5px;
 }
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
     cursor: pointer;
+    text-decoration: none;
 }
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
     /*margin-bottom: 0.2em;*/
     padding-bottom: 0;
-    color: #e5d506;
+    color: #e5d506 !important;
     background-color: #394977;
+    text-decoration: none;
 }
-.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active:after {
+.ui-tabs-nav li.ui-tabs-active:after {
     content: '';
     position: absolute;
     left: 100%;
@@ -295,6 +302,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     border-top: 13px solid transparent;
     border-left: 10px solid #e5d506;
 }
+
 .ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
     margin-bottom: 0px;
 }
@@ -303,9 +311,8 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     /*width: 28em;*/
     border-radius: 0;
     position: relative;
-    left: -1px;
 }
 .mycontent{
     margin-top: 15px;
-     margin-left: 15px;
+     margin-left: 22px;
 }
