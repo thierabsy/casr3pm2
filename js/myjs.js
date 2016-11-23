@@ -11,6 +11,8 @@ $(document).ready(function() {
 });
 $('#myModal').modal();
 
+$('.collapse').collapse('toggle');
+
 $('.bienvenue').typer(['BIENVENUE AU CASR 3PM ACADEMY']);
 
 // ASIDE CAROUSEL

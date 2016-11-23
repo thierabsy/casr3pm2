@@ -168,12 +168,14 @@ div#carousel-example-generic {
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     bottom: 10px;
-    padding-top: 15px; }
+    padding-top: 15px;
+    right: 10%;
+    left: 10%; }
 
 @media (min-width: 576px) {
   .carousel-caption {
-    right: 20%;
-    left: 20%;
+    right: 10%;
+    left: 10%;
     padding-bottom: 15px; } }
 @media (min-width: 576px) {
   .carousel-indicators {

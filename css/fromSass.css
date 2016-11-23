@@ -168,12 +168,14 @@ div#carousel-example-generic {
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     bottom: 10px;
-    padding-top: 15px; }
+    padding-top: 15px;
+    right: 10%;
+    left: 10%; }
 
 @media (min-width: 576px) {
   .carousel-caption {
-    right: 20%;
-    left: 20%;
+    right: 10%;
+    left: 10%;
     padding-bottom: 15px; } }
 @media (min-width: 576px) {
   .carousel-indicators {
@@ -237,7 +239,8 @@ margin-right: 7%;*/
         padding-right: 10px;
         margin: 8px 0; }
         .afterSlider .myTextt .groupSy .col ul li {
-          border-bottom: 1px dashed grey; }
+          border-bottom: 1px dashed grey;
+          padding: 2px; }
       .afterSlider .myTextt .groupSy .col .globalEvent img {
         margin: 2% 2% 0 2% !important; }
       .afterSlider .myTextt .groupSy .col .globalEvent ul li {

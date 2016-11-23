@@ -152,7 +152,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 
 /**************************************PROGRAMMES*********************************************/
 .beforeTabs{
-    background: linear-gradient(135deg,#657195,#e5d506);
+    background: linear-gradient(135deg,#657195,#e5d506,#657195);
 }
 
 .nav-tabs {

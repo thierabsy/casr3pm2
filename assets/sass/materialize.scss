@@ -208,12 +208,14 @@
             border-radius: 10px;
             bottom: 10px;
             padding-top: 15px;
+            right: 10%;
+            left: 10%;
     }
 }
 @media (min-width: 576px){
 .carousel-caption {
-    right: 20%;
-    left: 20%;
+    right: 10%;
+    left: 10%;
     padding-bottom: 15px;
 }
 }
@@ -292,6 +294,7 @@
                     margin: 8px 0;
                     li {
                         border-bottom: 1px dashed grey;
+                        padding: 2px;
                     }
                 }
                 .globalEvent {
