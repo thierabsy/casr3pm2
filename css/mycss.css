@@ -96,12 +96,20 @@ div.bhoechie-tab-menu div.list-group>a.active:after{
 }
 
 div.bhoechie-tab-content{
-  background-color: #ffffff;
-  /* border: 1px solid #eeeeee; */
-  padding-left: 20px;
+    border: 1px dashed #dfd31b;
+    border-radius: 6px;
+    background-color: #e7eff3;
+  padding-left: 10px;
+    padding-right: 10px;
   padding-top: 10px;
 }
-
+div.bhoechie-tab-content img{
+    height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px;
+}
 div.bhoechie-tab div.bhoechie-tab-content:not(.active){
   display: none;
 }
@@ -184,6 +192,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 /************************CENTRE EXCELLENCE***************************/
 .cardAside .card {
+    height: 233px;
     margin: 1%;
     margin-top: 10px;
     margin-left: 12%;
@@ -308,11 +317,32 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
     float: left;
-    /*width: 28em;*/
-    border-radius: 0;
     position: relative;
 }
 .mycontent{
     margin-top: 15px;
+    margin-bottom: 10px;
      margin-left: 22px;
+      border: 1px dashed #dfd31b;
+    border-radius: 6px;
+    background-color: #e7eff3;
+  padding-left: 10px;
+    padding-right: 10px;
+  padding-top: 10px;
+}
+.mycontent img{
+    height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px;
+}
+.mycontent .linearGradient{
+    background: linear-gradient(180deg,  #e4d406, transparent,#394977), url("../assets/images/deboucher_master.jpg");
+    background-repeat: no-repeat;
+    height: 191px;
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px;
 }
