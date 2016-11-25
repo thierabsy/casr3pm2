@@ -346,3 +346,23 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     margin-bottom: 10px;
     box-shadow: 0 0 10px;
 }
+
+/**************************PROGRAMMES****************************/
+.programmesTable thead th{
+    width: 80%;
+    background-color:#657195;
+    color: white;
+    font-style: 11px !important;
+}
+.programmesTable thead th:nth-child(2){
+    text-align: center;
+}
+.programmesTable thead span{
+    float: right;
+    color: #e4d406;
+    cursor: pointer;
+}
+.programmesTable tbody{
+    width: 80%;
+    font-style: 11px !important;
+}
