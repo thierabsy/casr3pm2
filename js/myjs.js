@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     $('.carousel').carousel({
         pause: "hover",
-        interval: 5000
+        interval: 7000
 });
 $('#myModal').modal();
 
