@@ -38,7 +38,7 @@ $('.nav-tabs a').on('shown.bs.tab', function (e) {
     slideSpeed : 200,
     paginationSpeed : 800,
     rewindSpeed : 5000,
- 
+    responsive: true,
     //Autoplay
     // autoPlay : false,
     stopOnHover : true,

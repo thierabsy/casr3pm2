@@ -162,8 +162,17 @@ header nav.navbar {
 .firstrow {
   padding-top: 5px; }
 
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.01s ease-in-out left !important;
+  -moz-transition: 0.01s ease-in-out left !important;
+  -o-transition: 0.01s ease-in-out left !important;
+  transition: 0.01s ease-in-out left !important; }
+
 div#carousel-example-generic {
-  border: 5px solid; }
+  border: 5px solid;
+  background: rgba(0, 0, 0, 0.7); }
   div#carousel-example-generic .carousel-caption {
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -182,8 +191,13 @@ div#carousel-example-generic {
     bottom: 0px; } }
 .carousel-inner > .carousel-item > a > img, .carousel-inner > .carousel-item > img, .img-fluid {
   max-width: 100%;
-  height: 60vh;
+  height: 100%;
+  min-height: 60vh;
+  max-height: 60vh;
   width: 100%; }
+
+.carousel {
+  height: 61.5vh; }
 
 .afterSlider {
   display: -moz-flexbox;
@@ -311,7 +325,8 @@ margin-right: 7%;*/
       border-bottom: 2px solid #dfd31b;
       margin: 0; }
     .afterSlider .aside .placeholder {
-      height: 176px; }
+      height: 153px;
+      margin-bottom: 18px; }
     .afterSlider .aside .agenda h5 {
       font-size: 13px;
       font-family: Arial;
@@ -383,7 +398,7 @@ margin-right: 7%;*/
     position: relative;
     width: 100%;
     border: 2px solid #394977;
-    height: 92px; }
+    /*height: 92px;*/ }
 
 #owl-demo2 .item img {
   display: block;
@@ -393,7 +408,8 @@ margin-right: 7%;*/
 #gallery {
   margin-left: 15%;
   margin-top: 1%;
-  border: 4px solid #e9b42b; }
+  margin-bottom: 1%;
+  border: 4px solid #dfd31b; }
 
 /*FOOTER*/
 footer {
@@ -438,7 +454,7 @@ footer {
       overflow: auto;
       float: left;
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: 5px;
       margin-left: 15px; }
       footer .network ul.network li {
         list-style-type: none;

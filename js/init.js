@@ -3,7 +3,10 @@
 
     $('.button-collapse').sideNav();
 
-    $('.carousel.carousel-slider').carousel({full_width: true});
+    $('.carousel.carousel-slider').carousel({
+        full_width: true,
+        interval: 10000
+});
 
      $('.slider').slider({full_width: true});
 

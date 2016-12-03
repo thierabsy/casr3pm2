@@ -13,15 +13,15 @@ var events = [{
   {
     type: 'smallItem',
     label: '<span style="color: white;">2016-01-01</span> <br><img src="./assets/images/Pr_AZAR_KAN.png" style="width: 200px;height: 92px;" /> ',
-    shortContent: 'Seminaires <br> SEMINAIRES big desc SI <br> with more lines <br> than the short one. <br> <div style="text-align: center;"><img src="" style="width: 50%;" /></div>',
-    fullContent: 'big desc SI <br> with more lines <br> than the short one. <br> <div style="text-align: center;"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" style="width: 50%;" /></div>',
+    shortContent: 'Seminaires <br> SEMINAIRES big desc SI <br> with more lines <br> than the short one. <br> <div style="text-align: center;"></div>',
+    fullContent: 'big desc SI <br> with more lines <br> than the short one. <br> <div style="text-align: center;"></div>',
     showMore: 'show more',
     showLess: 'show less'
   },
   {
     type: 'smallItem',
     label: '<span style="color: white;">2016-01-01</span> <br> <img src="./assets/images/Pr_DUPAK_GROUP.png" style="width: 200px;height: 92px;" /> ',
-    shortContent: 'SEMINAIRES <br><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" style="width: 200px;height: 92px;" /> <br>SEMINAIRES ',
+    shortContent: 'SEMINAIRES <br>SEMINAIRES ',
     fullContent: 'TTTTTTTTTTT',
     showMore: 'show more',
     showLess: 'show less'
@@ -29,14 +29,14 @@ var events = [{
   {
     type: 'smallItem',
     label: '<span style="color: white;">2016-01-01</span> <br> <img src="./assets/images/Pr_DUPAK_GROUP.png" style="width: 200px;height: 92px;" /> ',
-    shortContent: 'SEMINAIRES <br><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" style="width: 200px;height: 92px;" /> <br>SEMINAIRES ',
+    shortContent: 'SEMINAIRES  <br>SEMINAIRES ',
     fullContent: 'TTTTTTTTTTT',
     showMore: 'show more',
     showLess: 'show less'
   },
   {
     type: 'smallItem',
-    label: ' <span style="color: white;">2016-01-01</span><br> <img src="./assets/images/Pr_PHIL.png" style="width: 50%;" /> ',
+    label: ' <span style="color: white;">2016-01-01</span><br> <img src="./assets/images/Pr_PHIL.png" style="width: 20%; width:100px !important;" /> ',
     shortContent: 'Seminaires <br> SEMINAIRES big desc SI <br> with more lines <br> than the short one.',
     fullContent: 'big desc MS',
     showMore: undefined,
