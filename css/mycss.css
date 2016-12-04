@@ -24,14 +24,28 @@
       font-size: 12px;
     }
     /*PARTENAIRES*/
+     .nosPartenaires img{
+     margin-bottom: 1%;
+     margin-top: 1%;
+ }
+ /*.col.col-lg-2.col-md-2.col-sm-2.img-thumbnails {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}*/
     .nosPartenaires {
-    background: rgba(0,0,0,0.5);
-    height: 110px;
-    margin-top: auto;
-    margin-bottom: auto;
-    border: 1px solid;
-    overflow-y: scroll;}
-
+    background: #606d92;
+    height: 113px;
+    border: 2px solid;
+    }
+ @media (max-width:727px){
+     .nosPartenaires img{
+     margin-left: 1%;
+ }
+ .nosPartenaires{
+     margin-left: 1%;
+    overflow-y: scroll;
+ }
+ }
     /*****************TABS******************/
  /*  bhoechie tab */
 div.bhoechie-tab-container{
@@ -831,6 +845,7 @@ a.btnTelecharger:hover {
     }
     .col.col-lg-12.col-md-12.col-sm-12 {
     padding: 0;
+    text-align: center;
 }
 }
 @media (max-width: 768px){
