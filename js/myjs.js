@@ -10,8 +10,6 @@ $(document).ready(function() {
         interval: 7000
 });
 $('#myModal').modal();
-// IMAGES LAZY LOADING
-  $("img.lazy").lazyload();
 
 // $('.collapse').collapse('toggle');
 
@@ -31,21 +29,21 @@ $('.nav-tabs a').on('shown.bs.tab', function (e) {
 
 
 // OWL
-   $("#owl-demo").owlCarousel({
+//    $("#owl-demo").owlCarousel({
  
-      autoPlay: 4000, //Set AutoPlay to 3 seconds
+    //   autoPlay: 4000, //Set AutoPlay to 3 seconds
  
-      items : 6,
+    //   items : 6,
        //Basic Speeds
-    slideSpeed : 200,
-    paginationSpeed : 800,
-    rewindSpeed : 5000,
-    responsive: true,
+    // slideSpeed : 200,
+    // paginationSpeed : 800,
+    // rewindSpeed : 5000,
+    // responsive: true,
     //Autoplay
     // autoPlay : false,
-    stopOnHover : true,
+//     stopOnHover : true,
  
-  });
+//   });
 
     jQuery("#gallery").unitegallery({
         //gallery width
