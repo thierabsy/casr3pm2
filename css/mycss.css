@@ -160,7 +160,6 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 
 /**************************************PROGRAMMES*********************************************/
-
 .nav-tabs {
     border-bottom: 1px solid #ddd;
     margin-left: 31%;
@@ -168,6 +167,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     background: #657195;
     margin-top: 2%;
 }
+
 .nav-tabs .nav-item {
     float: left;
     margin-bottom: -5px;
@@ -187,6 +187,79 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     border-color: #e5d506;
     color: white;
+}
+
+
+ul.programmesNavbar {
+   
+    margin-left: 31%;
+    width: 75%;
+    margin-top: 2%;
+
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.programmesNavbar li {
+    float: left;
+    height: 33px;
+    /*margin-bottom: -5px;*/
+    font-family: Arial;
+    background: #657195;
+     border-bottom: 1px solid #ddd;
+   font-weight: bold;
+    font-size: 12px;
+    padding: 1.5% 6%;
+}
+.programmesNavbar li.active {
+    height: 35px;
+    margin-top: -1px;
+    background-color: #394977;
+    box-shadow: 5px 0 5px;
+}
+.programmesNavbar li:hover{
+   border: 1px solid #e5d506;
+}
+.programmesNavbar li a{
+    color: white !important;
+}
+.programmesNavbar li a:hover{
+   text-decoration: none !important;
+     color: #e5d506 !important;
+}
+.programmesNavbar li:active a{ 
+    color: #e5d506 !important;
+}
+@media (max-width:767px){
+    ul.programmesNavbar {
+    margin-left: 20%;
+}
+}
+@media (max-width:504px){
+    ul.programmesNavbar {
+    margin-left: 10%;
+    width: 100%;
+}
+}
+@media (max-width:404px){
+    ul.programmesNavbar {
+    margin-left: 0%;
+    width: 100%;
+}
+}
+@media (max-width:346px){
+    .programmesNavbar li {
+    padding: 2% 4%;
+}
+}
+@media (max-width:293px){
+    .programmesNavbar li {
+    padding: 2% 2%;
+}
+.programmesNavbar li a{
+    font-size: 10px;
+}
 }
 /************************CENTRE EXCELLENCE***************************/
 .cardAside .card {
@@ -333,7 +406,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
   padding-top: 10px;
 }
 .mycontent img{
-    height: 200px;
+    height: 250px;
     min-width: 100%;
     max-width: 100%;
     margin-bottom: 10px;
