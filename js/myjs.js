@@ -10,6 +10,8 @@ $(document).ready(function() {
         interval: 7000
 });
 $('#myModal').modal();
+// IMAGES LAZY LOADING
+  $("img.lazy").lazyload();
 
 // $('.collapse').collapse('toggle');
 
