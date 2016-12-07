@@ -17,6 +17,9 @@
       max-width:100%;
       min-height:100%;
     }
+    nav.navbar{
+        box-shadow: 0 2px 4px #394977;
+    }
 
     .centreExcellenceBody h6{
       color: #394977;
@@ -854,6 +857,15 @@ a.btnTelecharger:hover {
     .col.col-lg-12.col-md-12.col-sm-12 {
     padding: 0;
     text-align: center;
+}
+  #publications .col.col-lg-12.col-md-12.col-sm-12 p {
+    font-size: 10px ;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 0;
+}
+  #publications .col.col-lg-12.col-md-12.col-sm-12 p a {
+      display: none;
 }
 footer .network ul.network {
     margin-left: 29%;
