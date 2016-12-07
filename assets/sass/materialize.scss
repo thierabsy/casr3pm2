@@ -406,8 +406,10 @@
                 margin: 0;
             }
             .placeholder{
-                height: 153px;
-                margin-bottom: 18px
+                height: 191px;
+                margin-bottom: 18px;
+                border-top: 2px solid #dfd31b;
+                border-bottom: 2px solid #dfd31b;
             }
             .agenda h5{
                 font-size: 13px;
