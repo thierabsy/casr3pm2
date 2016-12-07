@@ -1,4 +1,5 @@
 
+ /*firebase login, firebase init, public directory=> dist, SPA=> yes, overwrite=> no, firebase deploy*/
  * {
         list-style: none;
     }
@@ -22,6 +23,12 @@
       font-family: Arial;
       font-weight: bold;
       font-size: 12px;
+    }
+    .hiSliderFullSecondThumbnail{
+        bottom: 17px !important;
+    }
+    .sildeCountPanel{
+        width: 39px !important;
     }
     /*PARTENAIRES*/
      .nosPartenaires img{
@@ -716,7 +723,7 @@ ul.nav.nav-tabs.ressources{
     background: url(../assets/images/banner/default-hero.jpg);
 }
 .beforeAgenda{
-    background: url(../assets/images/banner/banner/agenda2.jpg) no-repeat;
+    background: url(../assets/images/banner/agenda2.jpg) no-repeat;
     background-size: cover;
 }
 .beforeExcellence{

@@ -27,6 +27,7 @@ $('.nav-tabs a').on('shown.bs.tab', function (e) {
     window.location.hash = e.target.hash;
 });
 
+// SLIDESHOW
 
 // OWL
 //    $("#owl-demo").owlCarousel({
@@ -74,6 +75,6 @@ $('.nav-tabs a').on('shown.bs.tab', function (e) {
     $('#tabs').tabs().addClass('ui-tabs-vertical ui-helper-clearfix');
 
     $('#tabs2').tabs().addClass('ui-tabs-vertical ui-helper-clearfix');
-    
+ 
 
 });
