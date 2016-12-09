@@ -260,7 +260,8 @@ margin-right: 7%;*/
         margin: 8px 0; }
         .afterSlider .myTextt .groupSy .col ul li {
           border-bottom: 1px dashed grey;
-          padding: 2px; }
+          padding: 2px;
+          cursor: pointer; }
       .afterSlider .myTextt .groupSy .col .globalEvent img {
         margin: 2% 2% 0 2% !important; }
       .afterSlider .myTextt .groupSy .col .globalEvent ul li {
