@@ -201,7 +201,7 @@
     .firstrow{
             padding-top: 5px;
     }
-    .carousel-inner > .item {
+    /*.carousel-inner > .item {
     position: relative;
     display: none;
     -webkit-transition: 0.01s ease-in-out left !important;
@@ -236,13 +236,13 @@
 .carousel-inner>.carousel-item>a>img, .carousel-inner>.carousel-item>img, .img-fluid {
     max-width: 100%;
     height: 100%;
-    min-height: 60vh;
-    max-height: 60vh;
-    width: 100%;
+    /*min-height: 60vh;
+    max-height: 60vh;*/
+    /*width: 100%;
 }
 .carousel{
     height: 61.5vh;
-}
+}*/
 
     .afterSlider {
         display: -moz-flexbox;
@@ -272,7 +272,7 @@
                 }
                 p{
                    text-align: justify;
-                   font-size: 13px;
+                   font-size: 0.81rem;
                   font-family: Arial;
                 }
             }
@@ -334,6 +334,17 @@
                 }
             }
         }
+    /*ASIDE CAROUSEL*/
+    .placeholder{
+        .carousel{
+            img{
+                width: 100%;
+                height: 153px;
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
         /*CENTRE D'EXCELLENCE*/
         .centreExcellence {
             width: 74%;

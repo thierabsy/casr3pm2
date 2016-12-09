@@ -221,7 +221,9 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     border-color: #e5d506;
     color: white;
 }
-
+nav button:focus {
+    outline: 5px auto #dfd31b;
+}
 
 ul.programmesNavbar {
    
@@ -764,7 +766,7 @@ ul.nav.nav-tabs.ressources{
     }
 @media (max-width:768px){
     /***********SECTION 1 CAROUSEL+MAILING LIST***********/
-    .firstrow .col.col-lg-9.col-md-9.col-sm-12.carousel{
+    .firstrow .col.col-lg-9.col-md-9.col-sm-12{
         width: 97.5% !important;
     }
     .firstrow .col.col-lg-3.col-md-3.col-sm-12{
@@ -823,12 +825,25 @@ ul.nav.nav-tabs.ressources{
     }
 div#accordion {
     margin-bottom: 30px;
+    display: block;
 }
+.accueilPage #accordion{
+        display: block;
+    }
 .temoignages, .groupSy, .part{
-    display: none;
+    display: none; 
 }
 #accordion{
     display: block;
+}
+.myaccordion .card {
+    background-color: #d4dd21;
+}
+.myaccordion .card-header {
+    background: #d4dd21;
+}
+.myaccordion .card-block h5 {
+    border-bottom: 2px solid #d4dd21;
 }
 .asideMedium {
     margin-top: 0px;
