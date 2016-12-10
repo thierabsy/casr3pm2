@@ -57,6 +57,7 @@
     overflow-y: scroll;
  }
  }
+ 
     /*****************TABS******************/
  /*  bhoechie tab */
 div.bhoechie-tab-container{
@@ -813,7 +814,7 @@ ul.nav.nav-tabs.ressources{
     .navfooter{
         display: none;
     }
-}
+
 @media (max-width:601px){
     .banner2{
         display: block;
@@ -987,6 +988,7 @@ button.btn.btnTelecharger{
     margin-left: 0;
 }
 }
+
 
 
 
