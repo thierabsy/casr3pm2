@@ -13,7 +13,7 @@ nav.navbar{box-shadow:0 2px 4px #394977;}
 div.bhoechie-tab-container{z-index:10;margin:1%;margin-left:5%;background-color:#ffffff;padding:0 !important;border-radius:4px;-moz-border-radius:4px;width:100%;background-clip:padding-box;opacity:0.97;filter:alpha(opacity=97);}
 div.bhoechie-tab-menu{padding-right:0;padding-left:0;padding-bottom:0;}
 div.bhoechie-tab-menu div.list-group{margin-bottom:0;box-shadow:0 10px 30px rgba(0,0,0,0.7);}
-div.bhoechie-tab-menu div.list-group>a{margin-bottom:0;color:white;background:#606d92;font-size:12px;font-family:Arial;font-weight:bold;padding:5px;}
+div.bhoechie-tab-menu div.list-group>a{margin-bottom:0;color:white;background:#606d92;font-size:11px;font-family:Arial;font-weight:bold;padding:5px;}
 div.bhoechie-tab-menu div.list-group>a .glyphicon,
 div.bhoechie-tab-menu div.list-group>a .fa{color:white;}
 div.bhoechie-tab-menu div.list-group>a:first-child{border-top-right-radius:0;-moz-border-top-right-radius:0;}
